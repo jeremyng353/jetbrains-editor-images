@@ -8,7 +8,7 @@ title: IntelliJ IDEA Community as Editor for Eclipse Che
 description: IntelliJ IDEA Community running using Projector
 icon: https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png
 category: Editor
-repository: https://github.com/che-incubator/jetbrains-editor-images
+repository: https://github.com/jeremyng353/jetbrains-editor-images
 firstPublicationDate: "2021-06-29"
 spec:
   endpoints:
