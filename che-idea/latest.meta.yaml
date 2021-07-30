@@ -23,11 +23,11 @@ spec:
         path: /?backgroundColor=434343&wss
   containers:
     - name: che-idea
-      image: "quay.io/che-incubator/che-idea:latest"
+      image: "image-registry.openshift-image-registry.svc:5000/imtjjn-codeready/s2i-codeready-test:0.0.1"
       mountSources: true
       volumes:
-        - mountPath: "/home/projector-user"
-          name: projector-user
+        - mountPath: "/home/jboss"
+          name: jboss
       ports:
         - exposedPort: 8887
       memoryLimit: 4096M	
